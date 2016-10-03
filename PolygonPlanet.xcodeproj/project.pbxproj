@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		38071B691DA2436600955D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38071B681DA2436600955D5C /* AppDelegate.swift */; };
-		38071B6B1DA2436600955D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38071B6A1DA2436600955D5C /* ViewController.swift */; };
+		38071B6B1DA2436600955D5C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38071B6A1DA2436600955D5C /* GameViewController.swift */; };
 		38071B6E1DA2436600955D5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38071B6C1DA2436600955D5C /* Main.storyboard */; };
 		38071B701DA2436600955D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38071B6F1DA2436600955D5C /* Assets.xcassets */; };
 		38071B731DA2436600955D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38071B711DA2436600955D5C /* LaunchScreen.storyboard */; };
+		38CE51171DA24ACA008BEF3F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CE51161DA24ACA008BEF3F /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38071B651DA2436600955D5C /* PolygonPlanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolygonPlanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38071B681DA2436600955D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38071B6A1DA2436600955D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38071B6A1DA2436600955D5C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		38071B6D1DA2436600955D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38071B6F1DA2436600955D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38071B721DA2436600955D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38071B741DA2436600955D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CE51161DA24ACA008BEF3F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				38071B681DA2436600955D5C /* AppDelegate.swift */,
-				38071B6A1DA2436600955D5C /* ViewController.swift */,
+				38071B6A1DA2436600955D5C /* GameViewController.swift */,
 				38071B6C1DA2436600955D5C /* Main.storyboard */,
+				38CE51161DA24ACA008BEF3F /* art.scnassets */,
 				38071B6F1DA2436600955D5C /* Assets.xcassets */,
 				38071B711DA2436600955D5C /* LaunchScreen.storyboard */,
 				38071B741DA2436600955D5C /* Info.plist */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38071B731DA2436600955D5C /* LaunchScreen.storyboard in Resources */,
+				38CE51171DA24ACA008BEF3F /* art.scnassets in Resources */,
 				38071B701DA2436600955D5C /* Assets.xcassets in Resources */,
 				38071B6E1DA2436600955D5C /* Main.storyboard in Resources */,
 			);
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38071B6B1DA2436600955D5C /* ViewController.swift in Sources */,
+				38071B6B1DA2436600955D5C /* GameViewController.swift in Sources */,
 				38071B691DA2436600955D5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23CKX9X8J9;
 				INFOPLIST_FILE = PolygonPlanet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blendersleuth.PolygonPlanet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23CKX9X8J9;
 				INFOPLIST_FILE = PolygonPlanet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blendersleuth.PolygonPlanet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +308,7 @@
 				38071B791DA2436600955D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
